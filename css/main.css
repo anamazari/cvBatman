@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman';
+}
+
+header {
+    background-color: #E5E5E5;
+}
+
+.headerImgContainer, .footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.firstSection {
+    margin-top: 150px;
+}
+
+.pageTitle {
+    background-color: #C4C4C4 ;
+    color: #005677;
+    font-feature-settings: 'cpsp' on;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 84.69%;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 35px;
+    height: 29.87px;
+    padding: 10px;
+    text-align: center;
+    top: 202.13px;
+}
+
+h2 {
+    font-size: 20px;
+    height: 17px;
+    padding: 10px;
+    top: 387px;
+}
+
+.containerList {
+    margin-left: 20px;
+}
+ .listItem {
+     display: inline-table;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+
+.cursiveItem {
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.boldItem {
+    font-weight: bold; 
+}
+
+.footerContainer {
+    background-color: #005677;
+    color: #FFF;
+    margin-top: 150px;
+}
+ .footerText {
+    font-size: 20px ;
+    font-weight: 700;
+    Line-height: 16,94px;
+ }
+
+ .footerIcon {
+    padding: 10px;
+ }
